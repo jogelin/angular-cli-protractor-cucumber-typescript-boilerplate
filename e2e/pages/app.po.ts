@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class AngularCliProtractorCucumberTypescriptBoilerplatePage {
+export class AppPageObject {
   navigateTo() {
     return browser.get('/');
   }
